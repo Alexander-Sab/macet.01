@@ -1,0 +1,749 @@
+* {
+    box-sizing: border-box;
+}
+
+.headere {
+    min-width: 320px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color:#EEEEEE;
+    border-bottom: 1px solid rgb(64, 151, 245);
+}
+
+@media (min-width: 1024px) {
+    .headere {
+        min-width: 1024px;
+        height: 70px;
+    }
+}
+    
+@media (min-width: 1440px) {
+.headere {
+    min-width: 1440px;
+    height: 50px;
+   
+}
+}
+
+@media (min-width: 2560px) {
+    .headere {
+        min-width: 2560px;
+        height: 80px;
+    }
+    }
+
+.headere-logotip {
+    padding-left: 8px;
+}
+
+@media (min-width: 1024px) {
+    .headere-logotip {
+        padding-top: 10px;
+        padding-left: 24px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .headere-logotip {
+        padding-top: 2px;
+        padding-left: 34px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .headere-logotip {
+        padding-top: 16px;
+        padding-left: 54px;
+    }
+}
+
+.headere-nav__list {
+    display: flex;
+    color: aliceblue;
+    font-size: 16px;
+    color: #1B1C21;
+    list-style-type: none;
+    margin: 0px;
+    padding-top: 16px;
+    padding-left: 8px;
+}
+
+@media (min-width: 768px) {
+    .headere-nav__list {
+        font-size: 22px;
+        padding-top: 12px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .headere-nav__list {
+        font-size: 32px;
+        padding-top: 14px;    
+    }
+}
+
+@media (min-width: 1440px) {
+    .headere-nav__list {
+        font-size: 36px;
+        padding-top: 2px; 
+    }
+}
+
+@media (min-width: 2560px) {
+    .headere-nav__list {
+        font-size: 60px;
+        padding-top: 2px; 
+    }
+}
+
+.nav-menu__list-item--link {
+    text-decoration: none;
+    color: black;
+   
+}
+
+.nav-menu__list-item--link:hover {
+   color: #2d91d8;
+}
+
+.nav-menu__list-item {
+   padding-right: 24px;
+}
+
+@media (min-width: 768px) {
+    .nav-menu__list-item {
+        padding-right: 60px;
+}}
+
+@media (min-width: 1024px) {
+    .nav-menu__list-item {
+        padding-right: 100px;
+}}
+
+@media (min-width: 1440px) {
+    .nav-menu__list-item {
+        padding-right: 130px;
+}
+}
+
+@media (min-width: 2560px) {
+    .nav-menu__list-item {
+        padding-right: 280px;
+}
+}
+
+.information {
+    margin-bottom: 16px;
+    border-bottom: 1px solid rgb(64, 151, 245);
+}
+
+@media (min-width: 2560px) {
+    .information {
+        margin-bottom: 34px;
+        
+    }
+}
+
+@media (min-width: 768px) {
+    .information {
+    display: flex;
+    justify-content: space-around;
+    
+    }
+}
+
+.information-foto {
+    min-width: 250px;
+    min-height: 290px;
+    background-image: url("../img/3photo.jpg") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 290px;
+   
+}
+
+@media (min-width: 768px) {
+    .information-foto {
+    min-width: 350px;
+    min-height: 350px;
+    background-size: 350px;
+      
+    }
+}
+
+@media (min-width: 1024px) {
+    .information-foto {
+    min-width: 350px;
+    min-height: 310px;
+    background-size: 310px;
+      
+    }
+}
+
+@media (min-width: 1440px) {
+    .information-foto {
+    min-width: 550px;
+    min-height: 350px;
+    background-size: 350px;    
+    }
+}
+
+@media (min-width: 2560px) {
+    .information-foto {
+        min-width: 950px;
+        min-height: 550px;
+        background-size: 550px;    
+        }
+}
+
+.information-biography {
+    min-width: 320px;
+    font-weight: 500;
+    font-size: 16px; 
+    background-color: #EEEEEE;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+@media (min-width: 768px) {
+    .information-biography {
+        font-size: 18px; 
+    }
+}
+
+@media (min-width: 1024px) {
+    .information-biography {
+        font-size: 22px; 
+    }
+}
+
+@media (min-width: 1440px) {
+    .information-biography {
+        font-size: 24px; 
+    }
+}
+
+@media (min-width: 2560px) {
+    .information-biography {
+        font-size: 42px; 
+    }
+}
+
+.information-biography__text {
+    padding-bottom: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.skills {
+    min-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-bottom: 1px solid rgb(64, 151, 245);
+}
+
+@media (min-width: 1024px) {
+    .skills {  
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+}
+}
+
+@media (min-width: 1440px) {
+    .skills {  
+        min-width: 1440px;
+        padding-left: 44px;
+        padding-right: 44px;
+}
+}
+@media (min-width: 2560px) {
+    .skills {  
+        max-width: 2560px;
+        padding-left: 44px;
+        padding-right: 44px;
+}
+}
+
+/* /////// */
+.box-skills {
+    display: block;
+    min-width: 280px;
+    padding: 16px;
+    margin-bottom: 16px;
+    font-size: 16px; 
+    background-color: #1a1c311b;
+    border-radius: 12px;
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+@media (min-width: 768px) {
+    .box-skills {
+        padding: 24px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .box-skills {
+        max-width: 480px;
+        padding: 24px;
+        margin-bottom: 16px;
+        font-size: 22px; 
+    }
+}
+
+@media (min-width: 1440px) {
+    .box-skills {
+        max-width: 600px;
+        padding: 24px;
+        margin-bottom: 16px;
+        font-size: 24px; 
+        
+    }
+}
+
+@media (min-width: 2560px) {
+    .box-skills {
+        max-width: 1100px;
+        padding: 24px;
+        margin-bottom: 34px;
+        font-size: 42px; 
+        
+    }
+}
+/* /////// */
+
+.skills-soft__table {
+    text-align: center;
+    color: blue;
+    font-weight: 600;
+    margin: 0px;
+    padding: 0px 16px 0px 16px;
+}
+
+.skills-soft__list {
+   padding-left: 14px;
+}
+
+@media (min-width: 2560px) {
+    .skills-soft__list {
+        padding-left: 34px;
+     }
+}
+
+
+.skills-soft__language {
+   margin-bottom: 0px;
+   
+}
+
+.skills-education__table {
+    text-align: center;
+    color: blue;
+    font-weight: 600;
+    padding: 0px 16px 16px 16px;
+    margin: 0px;
+}
+
+.skills-education__text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 1024px) {
+    .skills-professional {
+        max-width: 480px;
+        margin-bottom: 16px;
+        font-size: 22px; 
+    }
+}
+
+@media (min-width: 1440px) {
+    .skills-professional {
+        max-width: 600px;
+        margin-bottom: 16px;
+        font-size: 24px; 
+    }
+}
+
+@media (min-width: 2560px) {
+    .skills-professional {
+        max-width: 1020px;
+        margin-bottom: 34px;
+        font-size: 42px; 
+    }
+}
+
+.skills-professional__table {
+    text-align: center;
+    color: blue;
+    font-weight: 600;
+    padding: 0px 16px 16px 16px;
+    margin: 0px;
+}
+
+.skills-professional__text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+@media (min-width: 1024px) {
+    .skills-contact {
+        max-width: 480px; 
+        padding: 120px;
+        padding-bottom: 16px;
+        padding-top: 24px;
+        font-size: 22px;
+        margin-bottom: 16px;
+    }
+    }
+    
+@media (min-width: 1440px) {
+    .skills-contact {
+        max-width: 600px; 
+        padding: 140px;
+        padding-bottom: 24px;
+        padding-top: 44px;
+        font-size: 28px;
+        margin-bottom: 16px;
+    }
+    }
+
+    @media (min-width: 2560px) {
+        .skills-contact {
+            max-width: 1100px; 
+            padding: 350px;
+            padding-bottom: 24px;
+            padding-top: 44px;
+            font-size: 42px;
+            margin-bottom: 34px;
+        }
+    }    
+
+.skills-contact__table {
+    text-align: center;
+    color: blue;
+    font-weight: 600;
+    padding: 0px 16px 16px 16px;
+    margin: 0px;
+}
+
+@media (min-width: 1024px) {
+    .skills-contact__table {
+        padding: 0px 16px 38px 16px;
+        
+    }
+}
+
+
+/* почта */
+.skills-contact__mail {
+    margin-bottom: 16px;
+    background-image: url('../icons/mail-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+}
+
+@media (min-width: 768px) {
+    .skills-contact__mail {
+        background-size: 18px;   
+    }
+}
+
+@media (min-width: 1024px) {
+    .skills-contact__mail {
+        background-size: 24px;    
+    }
+}
+
+.skills-contact__mail--post {
+    padding-left: 24px;
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+}
+
+@media (min-width: 1024px) {
+    .skills-contact__mail--post {
+        padding-left: 44px; 
+    }
+}
+/*  телефон */
+.skills-contact__telephone {
+    margin-bottom: 16px;
+    background-image: url('../icons/telephone-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+}
+@media (min-width: 768px) {
+    .skills-contact__telephone {
+        background-size: 18px; 
+    }
+}
+@media (min-width: 1024px) {
+    .skills-contact__telephone {
+        background-size: 24px; 
+    }
+}
+
+
+.skills-contact__telephone--number {
+    padding-left: 24px;
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+}
+
+@media (min-width: 1024px) {
+    .skills-contact__telephone--number {
+        padding-left: 44px;     
+    }
+}
+.horizontally {
+    display: flex;
+    justify-content: center;
+}
+/* вацап */
+.skills-contact__whatsapp--icon {
+    min-width: 45px;
+    min-height: 45px;
+    margin-bottom: 16px;
+    background-image: url('../icons/whatsapp.svg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: left center;
+}
+/* telegram */
+.skills-contact__telegram--icon {
+    min-width: 45px;
+    min-height: 45px;
+    margin-bottom: 16px;
+    background-image: url('../icons/телеграмма.svg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: left center;
+}
+/* линкедин */
+.skills-contact__linkedIn--icon {
+    min-width: 45px;
+    min-height: 45px;
+    margin-bottom: 16px;
+    background-image: url('../icons/линкедин.svg');
+    background-repeat: no-repeat;
+    background-size: 35px;
+    background-position: left center;
+}
+.constructor{
+    min-width: 320px;
+    background-color: #EEEEEE;
+}
+
+@media (min-width: 1440px) {
+    .constructor{
+        min-width: 1440px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        padding-top: 24px;
+        padding-left: 44px;
+        padding-right: 44px;
+        border-bottom: 1px solid rgb(64, 151, 245);
+    }
+}
+
+.constructor-link-1 {
+    
+}
+.bottom-frame {
+    background-color:#EEEEEE;
+    border-bottom: 1px solid rgb(64, 151, 245);
+}
+
+@media (min-width: 1440px) {
+    .bottom-frame {
+        border: none
+    } 
+}
+
+/* ///////////// */
+.box-drawing {
+    min-width: 320px;
+    min-height: 310px;
+    margin: 0 auto;
+    
+    background-repeat: no-repeat;
+    background-size: 93% 78%;
+    background-position: center;
+}
+
+@media (min-width: 768px) {
+    .box-drawing {
+        width: 730px;
+        height: 370px;
+        background-size: 730px 340px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .box-drawing {
+        max-width: 650px;
+        max-height: 500px;
+        background-size: 100% 100%;
+        background-size: center center;
+        margin-bottom: 24px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .box-drawing {
+        max-width: 730px;
+        max-height: 370px;
+        background-size: 100% 100%;
+        background-size: center center;
+        margin-bottom: 34px;
+    }
+}
+
+/* ///////////// */
+
+.constructor-link__drawing-1 {
+    background-image: url('../img/Portfolio\ Saprykina\ Tatiana_1.png');
+}
+
+
+.constructor-link__drawing-3 {
+    background-image: url('../img/Portfolio\ Saprykina\ Tatiana_3.png'); 
+}
+
+.constructor-link__drawing-4 {
+  
+    background-image: url('../img/Portfolio\ Saprykina\ Tatiana_4.png');  
+}
+
+.constructor-link__drawing-5 {
+    background-image: url('../img/Portfolio\ Saprykina\ Tatiana_5.jpg');   
+}
+
+.constructor-link__drawing-6 {
+ 
+    background-image: url('../img/Portfolio\ Saprykina\ Tatiana_6.jpg');  
+}
+
+.footere {
+    min-width: 320px;
+    height: 60px;
+    padding-top: 6px;
+    justify-content: space-around;
+    background-color:#EEEEEE;
+    
+}
+@media (min-width: 1024px) {
+    .footere {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 18px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .footere {
+        padding-top: 0px;
+    }
+}
+
+
+.footere-contact__telephone {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+    background-image: url('../icons/telephone-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+}
+@media (min-width: 1024px) {
+    .footere-contact__telephone {
+        width: 200px;
+        background-size: 22px;
+        background-position: left top;
+        font-size: 22px; 
+    }
+}
+
+@media (min-width: 2560px) {
+    .footere-contact__telephone {
+        width: 380px;
+        margin-left: 400px;
+        background-size: 42px;
+        background-position: left center;
+        font-size: 42px; 
+    }
+}
+
+.footere-contact__telephone--number {
+    padding-left: 24px;
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+}
+
+@media (min-width: 1024px) {
+    .footere-contact__telephone--number {
+        padding-left: 44px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .footere-contact__telephone--number {
+        
+        padding-left: 64px;  
+    }
+}
+
+.footere-contact__mail {
+    width: 150px;
+    margin: 0 auto;
+    margin-bottom: 6px;
+    background-image: url('../icons/mail-svgrepo-com.svg');
+    background-repeat: no-repeat;
+    background-size: 16px;
+    background-position: left center;
+}
+
+@media (min-width: 1024px) {
+    .footere-contact__mail {
+        width: 250px;
+        background-size: 28px;
+        background-position: left top;
+        font-size: 22px; 
+    }
+}
+
+@media (min-width: 2560px) {
+    .footere-contact__mail {
+        margin-left: 400px;
+        background-size: 42px;
+        background-position: left center;
+        font-size: 42px; 
+    }
+}
+
+.footere-contact__telephone--post {
+    padding-left: 24px;
+    text-decoration: none;
+    color: rgba(27, 28, 33, 1);
+}
+
+@media (min-width: 1024px) {
+    .footere-contact__telephone--post {
+        padding-left: 44px;
+    }
+}
+
+@media (min-width: 2560px) {
+    .footere-contact__telephone--post {
+        padding-left: 64px;
+       
+    }
+}
